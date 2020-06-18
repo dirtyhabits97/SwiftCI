@@ -13,4 +13,8 @@ public extension Sequence where Element: Numeric {
         return reduce(0, +)
     }
     
+    
+    func ___swiftlint_warning_test() { }
+    
+    
 }
