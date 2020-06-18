@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+public extension Sequence where Element: Numeric {
+    
+    func sum() -> Element {
+        return reduce(0, +)
+    }
+    
+}

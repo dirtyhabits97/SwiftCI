@@ -7,6 +7,9 @@ final class SwiftCITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         XCTAssertEqual(SwiftCI().text, "Hello, World!")
+        
+        let seq = [0,1,2,3]
+        XCTAssertEqual(seq.sum(), 6)
     }
 
     static var allTests = [
